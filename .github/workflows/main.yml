@@ -1,9 +1,8 @@
 name: build & deploy
 
 on:
-  push:
-    branches: ["master"]
-
+  workflow_dispatch:
+  
 permissions:
   contents: read
   pages: write

@@ -24,7 +24,7 @@ def read_file(path):
 
 
 if __name__ == "__main__":
-    files = sorted(glob("output/*.ogg"))
+    files = sorted(glob("output/*.mp3"))
     html_players = [generate_html_audio_player(filepath) for filepath in files]
     html_players = "\n".join([html for html in html_players])
 
